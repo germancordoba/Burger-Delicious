@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envios</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="../img/download.logo.png" type="logo">
+</head>
+<body>
+    <header>
+        <h1 class="title"><img src="../img/download.logo.png" alt="logo" class="logo">Burger Delicious</h1>
+        <nav class="navbar">
+            <a href="../index.html">Home</a>
+            <a href="../pags/productos.html">Comidas</a>
+            <a href="../pags/envios.html">Envios</a>
+            <a href="../pags/quienesomos.html">Sobre Nosotros</a>
+        </nav>
+    </header>
+    <main>
+        <h2 class="title__h2">Envios</h2>
+        <form class="form__envios">
+            <h4>Quien queres que te lleve el pedido</h4>
+            <label class="form__envios--label" for="personas">Agustin</label>
+            <input class="form__envios--input" type="checkbox" id="personas">
+
+            <label class="form__envios--label" for="personas">Milagros</label>
+            <input class="form__envios--input" type="checkbox" id="personas">
+
+            <label class="form__envios--label" for="personas">Tomas</label>
+            <input class="form__envios--input" type="checkbox" id="personas">
+
+            <label class="form__envios--label" for="personas">Agostina</label>
+            <input class="form__envios--input" type="checkbox" id="personas">
+
+            <h4 class="envios__h4">En que medio queres que te llegue el pedido?</h4>
+
+            <select class="form__envios--select">
+                <option value="auto">Auto</option>
+                <option value="moto">Moto</option>
+                <option value="bici">Bici</option>  
+                <option value="vacio" disabled selected></option>         
+            </select>
+
+            <h2 class="title__h2">Haz tu reserva</h2>
+
+            <div class="form__envios--div">
+                <input class="name" type="nombre" placeholder="Nombre">
+
+                <input  class="last name" type="apellido" placeholder="Apellido">
+
+                <input  class="people" type="personas" placeholder="Cantidad de personas">
+
+                <input class="places" type="sucursal" placeholder="Sucursales">
+                
+                <input class="time" type="time" name="time" placeholder="Horario">
+                
+                <input  class= "submit" type="submit" value="enviar👍">
+            </div>
+
+        </form>
+    </main>
+    <footer>
+        <div class="footer__logo">
+            <h1><img src="../img/download.logo.png" alt="logo" class="logo">burger Delicious</h1>
+        </div>
+
+        <div class="footer__sucursales">
+            <h4>Sucursales</h4>
+            <p>Guemes 5400 <br>
+                Constitución 5333
+            </p>
+        </div>
+
+        <div class="footer__horarios">
+            <h4>Horarios</h4>
+            <p>11:00hs a 15:00hs<br>
+                18:00hs a 00:00hs
+            </p>
+        </div>
+        <div class="icons">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-whatsapp"></i>
+            <i class="bi bi-twitter"></i>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
