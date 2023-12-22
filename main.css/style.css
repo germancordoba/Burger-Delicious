@@ -89,7 +89,7 @@ h2{
 }
 
 .combo5{
-    width: 350px;
+    width: 300px;
 }
 
 .combo6{
@@ -190,15 +190,84 @@ h4{
     grid-template-columns: 1fr 1fr;
     grid-template-rows:  1fr 1fr 1fr;
     grid-template-areas: 
-     "name   last name"
+     "name   lastname"
      "people  places"
      "time  submit";
 }
 
+.name{
+    grid-area: name;
+}
 
+.lastname{
+    grid-area: lastname;
+}
 
+.people{
+    grid-area: people;
+}
 
+.places{
+    grid-area: places;
+}
 
+.time{
+    grid-area: time;
+}
+
+.submit{
+    grid-area: submit;
+}
+
+.sucursales{
+   display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    gap: 3rem;
+}
+
+.sucursalone{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #a5a2a2da;
+    border: 2px dashed black;
+    border-radius: 20%;
+    padding: 1.5rem;
+}
+
+.img1{
+    width: 58%;
+    border-radius: 2%;
+}
+
+.sucursaltwo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #a5a2a2da;
+    border: 2px dashed black;
+    border-radius: 20%;
+    padding: 1.5rem;
+}
+.img2{
+    width: 60%;
+    border-radius: 2%;
+}
+
+.sucursalthree{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #a5a2a2da;
+    border: 2px dashed black;
+    border-radius: 20%;
+    padding: 1.5rem;
+}
+.img3{
+    width: 58%;
+    border-radius: 2%;
+}
 
 footer{
     padding: 1rem;
@@ -342,7 +411,40 @@ p{
     letter-spacing: .1rem;
 }
 
+.primeraburguer{
+    border: 2px solid bisque;
+    padding: 1rem;
+}
 
+.segundaburguer{
+    border: 2px solid bisque;
+    padding: 1rem;
+}
+
+.burguer3{
+    border: 2px solid bisque;
+    padding: 1rem;
+}
+
+.cuartaburguer{
+    border: 2px solid bisque;
+    padding: 1rem;
+}
+
+.quintaburguer{
+    border: 2px solid bisque;
+    padding: 1rem;
+}
+
+.sextaburguer{
+    border: 2px solid bisque;
+    padding: 1rem;
+}
+
+.septimaburguer{
+    border: 2px solid bisque;
+    padding: 1rem;
+}
 
 @media screen and (max-width: 390px) {
 
@@ -364,6 +466,14 @@ p{
         flex-direction: column;
     }
 
+    .sucursales{
+        display: flex;
+        flex-direction: column;
+    }
 
+    .navbar{
+       gap: .5rem;
+       flex-direction: column;
 
+    }
 }
