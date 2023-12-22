@@ -11,6 +11,8 @@
 header{
     background-color: orange;
     padding: 5px;
+}
+
     
     .logo{
     width: 8%;
@@ -38,7 +40,7 @@ header{
     color: black ;
     }
     
-}
+
 
 .aggregates{
     display: flex;
@@ -51,15 +53,16 @@ header{
 .combo{
     padding: 15px;
     font-family: 'Dosis', sans-serif;
+}
     
-    .combo1{
+  .combo1{
         justify-self: center;
         align-self: center;
     }
     
     
     
-    .combo2{
+ .combo2{
         justify-self: center;
         align-self: center;
     }
@@ -85,7 +88,6 @@ header{
     .combo6{
         width: 300px;
     }
-}
 
 .hero .hero__menu{
     padding: 10px;
@@ -100,6 +102,8 @@ h4{
 
 .form{
     padding: 15px;
+}
+
     .form__h5{
         margin-top: 5px;
         margin-bottom: 7px;
@@ -131,7 +135,7 @@ h4{
         display: flex;
         gap: 0.5rem;
     }
-}
+
 
 .form__div{
     margin-top: 10px;
@@ -141,6 +145,7 @@ h4{
 
 .form__envios{
     padding: 10px;
+}
     
     .form__envios--label{
         margin-top: 10px;
@@ -198,7 +203,7 @@ h4{
     .submit{
         grid-area: submit;
     }
-}
+
 
 
 .sucursales{
@@ -206,6 +211,7 @@ h4{
     padding-top: 1rem;
     padding-bottom: 1rem;
     gap: 3rem;
+}
     
     .sucursalone{
         display: flex;
@@ -249,7 +255,7 @@ h4{
         width: 58%;
         border-radius: 2%;
     }
-}
+
 
 footer{
     padding: 1rem;
@@ -257,6 +263,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
     
     .footer__logo{
         font-size: 9px;
@@ -289,7 +296,7 @@ footer{
         display: flex;
         gap: .5rem;
     }
-}
+
 
 
 a:hover{
