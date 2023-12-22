@@ -333,31 +333,6 @@ a:hover{
 }
 
 
-.carousel-inner{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center !important;
-    vertical-align: middle;
-}
-
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon{
-    display: flex;
-    background-color: grey;
-
-}
-
-
-.carousel-indicators [ data-bs-target]{
-    background-color: orange;
-}
-
-
-.carousel-indicators{
-    margin-left: 40%;
-}
 
 h5{
     font-family: 'Bebas Neue', sans-serif;
