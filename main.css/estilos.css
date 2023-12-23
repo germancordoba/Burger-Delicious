@@ -33,6 +33,13 @@ header a {
   color: black;
 }
 
+.title__h2 {
+  display: flex;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 1px;
+}
+
 .aggregates {
   display: flex;
   justify-content: center;
