@@ -34,8 +34,9 @@ header a {
 }
 
 .title__h2 {
+  padding-top: 1rem;
   display: flex;
-  text-align: center;
+  justify-content: center;
   font-family: "Bebas Neue", sans-serif;
   letter-spacing: 1px;
 }
@@ -67,15 +68,17 @@ header a {
   justify-self: center;
   align-self: center;
 }
-.combo .combo5 {
-  width: 300px;
-}
-.combo .combo6 {
-  width: 300px;
-}
 
 .hero .hero__menu {
   padding: 10px;
+}
+
+.hero__menu--list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 h4 {
@@ -220,9 +223,12 @@ footer {
   justify-content: space-evenly;
 }
 footer .footer__logo {
-  font-size: 9px;
+  font-size: 7px;
   color: maroon;
   font-family: "Bebas Neue", sans-serif;
+}
+footer .logo {
+  width: 8%;
 }
 footer .footer__sucursales {
   display: flex;
@@ -340,10 +346,16 @@ p {
   border: 2px solid bisque;
   padding: 1rem;
 }
+.quintaburguer .combo5 {
+  width: 320px;
+}
 
 .sextaburguer {
   border: 2px solid bisque;
   padding: 1rem;
+}
+.sextaburguer .combo6 {
+  width: 320px;
 }
 
 .septimaburguer {
