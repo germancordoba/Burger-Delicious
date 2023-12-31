@@ -33,6 +33,10 @@ header a {
   color: black;
 }
 
+a:hover {
+  color: purple;
+}
+
 .title__h2 {
   padding-top: 1rem;
   display: flex;
@@ -215,47 +219,6 @@ h4 {
   border-radius: 2%;
 }
 
-footer {
-  padding: 1rem;
-  background-color: orange;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-footer .footer__logo {
-  font-size: 7px;
-  color: maroon;
-  font-family: "Bebas Neue", sans-serif;
-}
-footer .logo {
-  width: 8%;
-}
-footer .footer__sucursales {
-  display: flex;
-  flex-direction: column;
-}
-footer .footer__sucursales p {
-  padding-top: 5px;
-  font-family: "Dosis", sans-serif;
-}
-footer .footer__horarios {
-  display: flex;
-  flex-direction: column;
-}
-footer .footer__horarios p {
-  padding-top: 5px;
-  font-family: "Dosis", sans-serif;
-}
-footer .icons {
-  color: black;
-  display: flex;
-  gap: 0.5rem;
-}
-
-a:hover {
-  color: purple;
-}
-
 .button--submit:focus {
   background-color: orange;
   color: black;
@@ -361,6 +324,43 @@ p {
 .septimaburguer {
   border: 2px solid bisque;
   padding: 1rem;
+}
+
+footer {
+  padding: 1rem;
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+footer .footer__logo {
+  font-size: 7px;
+  color: maroon;
+  font-family: "Bebas Neue", sans-serif;
+}
+footer .logo {
+  width: 8%;
+}
+footer .footer__sucursales {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer__sucursales p {
+  padding-top: 5px;
+  font-family: "Dosis", sans-serif;
+}
+footer .footer__horarios {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer__horarios p {
+  padding-top: 5px;
+  font-family: "Dosis", sans-serif;
+}
+footer .icons {
+  color: black;
+  display: flex;
+  gap: 0.5rem;
 }
 
 @media screen and (max-width: 980px) {

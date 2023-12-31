@@ -1,0 +1,43 @@
+footer{
+    padding: 1rem;
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    .footer__logo{
+      font-size: 7px;
+      color: maroon;
+      font-family: 'Bebas Neue', sans-serif;
+    }
+    
+    .logo{
+        width: 8%;
+    }
+
+    .footer__sucursales{
+       display: flex;
+       flex-direction: column;
+    }
+    
+    .footer__sucursales p{
+        padding-top: 5px;
+        font-family: 'Dosis', sans-serif;
+    }
+    
+    .footer__horarios{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer__horarios p{
+       padding-top: 5px;
+       font-family: 'Dosis', sans-serif;
+    }
+
+    .icons{
+       color: black;
+       display: flex;
+       gap: .5rem;
+    }
+}

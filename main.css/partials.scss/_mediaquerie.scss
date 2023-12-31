@@ -1,0 +1,54 @@
+@media screen and (max-width:980px) {
+    .col-md-3{
+        display: flex;
+        gap: 1rem;
+    }
+    .sucursales{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .sucursales{
+        flex-direction: column;
+    }
+    .form__envios--div{
+        outline: 2px solid orange;
+    }
+
+    footer{
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 390px) {
+
+    .combo{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .form__envios--div{
+        outline: 2px solid orange;
+    }
+
+    footer{
+        gap: 2rem;
+    }
+
+    .icons{
+        flex-direction: column;
+    }
+
+    .sucursales{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar{
+       gap: .5rem;
+       flex-direction: column;
+
+    }
+}
