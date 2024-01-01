@@ -2,21 +2,21 @@
     padding-top: 1rem;
     display: flex;
     justify-content: center;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: $fontbebasneue;
     letter-spacing: 1px;
 }
 
 .aggregates{
     display: flex;
     justify-content: center;
-    font-family: 'Dosis', sans-serif;
+    font-family: $fontdosissans;
     font-size: 18px;
 }
 
 
 .combo{
     padding: 15px;
-    font-family: 'Dosis', sans-serif;
+    font-family: $fontdosissans;
     
     .combo1{
       justify-self: center;
@@ -60,7 +60,7 @@
 }
 
 h4{
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: $fontbebasneue;
     letter-spacing: 1px;
 }
 
@@ -72,7 +72,7 @@ h4{
     .form__h5{
         margin-top: 5px;
         margin-bottom: 7px;
-        font-family: 'Bebas Neue', sans-serif;
+        font-family: $fontbebasneue;
         letter-spacing: 1px;
     }
     
@@ -80,14 +80,14 @@ h4{
         margin-top: 5px;
         display: flex;
         flex-direction: column;
-        font-family: 'Dosis', sans-serif;
+        font-family: $fontdosissans;
     }
     
     .form__select{
         margin-top: 5px;
         display: flex;
         flex-direction: column;
-        border: 3px dashed orange;
+        border: 3px dashed $colorfondo;
     }
     
     .form__input{
@@ -117,7 +117,7 @@ h4{
         margin-top: 10px;
         display: flex;
         flex-direction: column;
-        font-family: 'Dosis', sans-serif;
+        font-family: $fontdosissans;
     }
     
     .form__envios--input{
@@ -127,16 +127,18 @@ h4{
     .envios__h4{
         margin-top: 10px;
         margin-bottom: 10px;
-        font-family: 'Bebas Neue', sans-serif;
+        font-family: $fontbebasneue;
         letter-spacing: 1px;
     }
     
     .form__envios--select{
         margin-bottom: 10px;
-        border: 3px dashed orange;
+        border: 3px dashed  $colorfondo;
     }
     
     .form__envios--div{
+        width: 80%;
+        margin-left: 5%;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows:  1fr 1fr 1fr;
@@ -224,12 +226,12 @@ h4{
 }
 
 .button--submit:focus{
-    background-color: orange;
+    background-color: $colorfondo;
     color: black;
 }
 
 .button--reset:focus{
-    border: 4px dashed orange;
+    border: 4px dashed $colorfondo;
 }
 
 .button__button:focus{
@@ -243,12 +245,12 @@ h4{
 
 
 h5{
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: $fontbebasneue;
 }
 
 
 .price1{
-    background-color: orange;
+    background-color: $colorfondo;
     max-width: max-content;
     border-radius: 50%;
     padding: .75rem;
@@ -257,7 +259,7 @@ h5{
 
 
 .price2{
-    background-color: orange;
+    background-color: $colorfondo;
     max-width: max-content;
     border-radius: 50%;
     padding: .75rem;
@@ -266,7 +268,7 @@ h5{
 
 
 .price3{
-    background-color: orange;
+    background-color: $colorfondo;
     max-width: max-content;
     border-radius: 50%;
     padding: .75rem;
@@ -274,7 +276,7 @@ h5{
 }
 
 .price4{
-    background-color: orange;
+    background-color: $colorfondo;
     max-width: max-content;
     border-radius: 50%;
     padding: .75rem;
@@ -283,14 +285,14 @@ h5{
 
 
 p{
-    font-family: 'Dosis', sans-serif;  
+    font-family: $fontdosissans;  
 }
 
 
 
 
 .name__equipment{
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: $fontbebasneue;
     letter-spacing: .1rem;
 }
 

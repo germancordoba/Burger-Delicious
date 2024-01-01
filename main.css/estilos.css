@@ -149,6 +149,8 @@ h4 {
   border: 3px dashed orange;
 }
 .form__envios .form__envios--div {
+  width: 80%;
+  margin-left: 5%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;

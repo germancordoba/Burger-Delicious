@@ -1,6 +1,6 @@
 footer{
     padding: 1rem;
-    background-color: orange;
+    background-color: $colorfondo;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -8,7 +8,7 @@ footer{
     .footer__logo{
       font-size: 7px;
       color: maroon;
-      font-family: 'Bebas Neue', sans-serif;
+      font-family: $fontbebasneue;
     }
     
     .logo{
@@ -22,7 +22,7 @@ footer{
     
     .footer__sucursales p{
         padding-top: 5px;
-        font-family: 'Dosis', sans-serif;
+        font-family: $fontdosissans;
     }
     
     .footer__horarios{
@@ -32,7 +32,7 @@ footer{
     
     .footer__horarios p{
        padding-top: 5px;
-       font-family: 'Dosis', sans-serif;
+       font-family: $fontdosissans;
     }
 
     .icons{
