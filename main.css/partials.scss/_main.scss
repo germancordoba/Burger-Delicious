@@ -17,33 +17,6 @@
 .combo{
     padding: 15px;
     font-family: $fontdosissans;
-    
-    .combo1{
-      justify-self: center;
-      align-self: center;
-    }
-    
-    
-    
-    .combo2{
-       justify-self: center;
-       align-self: center;
-    }
-    
-    
-    
-    .combo3{
-       justify-self: center;
-       align-self: center; 
-    }
-    
-    
-    
-    .combo4{
-       justify-self: center;
-       align-self: center;
-    }
-
 }
 
 .hero .hero__menu{
@@ -78,8 +51,9 @@ h4{
     
     .form__label{
         margin-top: 5px;
-        display: flex;
-        flex-direction: column;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
         font-family: $fontdosissans;
     }
     
@@ -115,9 +89,10 @@ h4{
     
     .form__envios--label{
         margin-top: 10px;
-        display: flex;
-        flex-direction: column;
+        margin-bottom: 10px;
+        margin-left: 10px;
         font-family: $fontdosissans;
+        margin-right: 10px;
     }
     
     .form__envios--input{
@@ -132,13 +107,14 @@ h4{
     }
     
     .form__envios--select{
+        margin-left: 15px;
         margin-bottom: 10px;
         border: 3px dashed  $colorfondo;
     }
     
     .form__envios--div{
-        width: 80%;
-        margin-left: 5%;
+        width: 55%;
+        margin: auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows:  1fr 1fr 1fr;
@@ -146,6 +122,7 @@ h4{
          "name   lastname"
          "people  places"
          "time  submit";
+
     }
     
     .name{

@@ -23,8 +23,8 @@ header .title {
 }
 header .navbar {
   display: flex;
-  justify-content: end;
-  gap: 2rem;
+  justify-content: center;
+  gap: 0.75rem;
   font-family: "Bebas Neue", sans-serif;
   letter-spacing: 1px;
 }
@@ -56,22 +56,6 @@ a:hover {
   padding: 15px;
   font-family: "Dosis", sans-serif;
 }
-.combo .combo1 {
-  justify-self: center;
-  align-self: center;
-}
-.combo .combo2 {
-  justify-self: center;
-  align-self: center;
-}
-.combo .combo3 {
-  justify-self: center;
-  align-self: center;
-}
-.combo .combo4 {
-  justify-self: center;
-  align-self: center;
-}
 
 .hero .hero__menu {
   padding: 10px;
@@ -101,8 +85,9 @@ h4 {
 }
 .form .form__label {
   margin-top: 5px;
-  display: flex;
-  flex-direction: column;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
   font-family: "Dosis", sans-serif;
 }
 .form .form__select {
@@ -131,9 +116,10 @@ h4 {
 }
 .form__envios .form__envios--label {
   margin-top: 10px;
-  display: flex;
-  flex-direction: column;
+  margin-bottom: 10px;
+  margin-left: 10px;
   font-family: "Dosis", sans-serif;
+  margin-right: 10px;
 }
 .form__envios .form__envios--input {
   margin-top: 5px;
@@ -145,12 +131,13 @@ h4 {
   letter-spacing: 1px;
 }
 .form__envios .form__envios--select {
+  margin-left: 15px;
   margin-bottom: 10px;
   border: 3px dashed orange;
 }
 .form__envios .form__envios--div {
-  width: 80%;
-  margin-left: 5%;
+  width: 55%;
+  margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -378,11 +365,40 @@ footer .icons {
   .sucursales {
     flex-direction: column;
   }
-  .form__envios--div {
+  .form__envios .form__envios--div {
+    margin: auto;
     outline: 2px solid orange;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: "name" "lastname" "people" "places" "time" "submit";
+  }
+  .name {
+    grid-area: name;
+  }
+  .lastname {
+    grid-area: lastname;
+  }
+  .people {
+    grid-area: people;
+  }
+  .places {
+    grid-area: places;
+  }
+  .time {
+    grid-area: time;
+  }
+  .submit {
+    grid-area: submit;
   }
   footer {
     gap: 1rem;
+  }
+  .form__envios .form__envios--select {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
   }
 }
 @media screen and (max-width: 390px) {
@@ -390,8 +406,31 @@ footer .icons {
     display: flex;
     flex-direction: column;
   }
-  .form__envios--div {
+  .form__envios .form__envios--div {
+    margin: auto;
     outline: 2px solid orange;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: "name" "lastname" "people" "places" "time" "submit";
+  }
+  .name {
+    grid-area: name;
+  }
+  .lastname {
+    grid-area: lastname;
+  }
+  .people {
+    grid-area: people;
+  }
+  .places {
+    grid-area: places;
+  }
+  .time {
+    grid-area: time;
+  }
+  .submit {
+    grid-area: submit;
   }
   footer {
     gap: 2rem;
@@ -405,6 +444,19 @@ footer .icons {
   }
   .navbar {
     gap: 0.5rem;
-    flex-direction: column;
+    justify-content: space-around;
+  }
+  .form__envios .form__envios--select {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .form__envios .form__envios--checkbox {
+    display: flex;
+    justify-content: center;
+  }
+  .form__envios--label {
+    margin-right: 10px;
   }
 }/*# sourceMappingURL=estilos.css.map */
