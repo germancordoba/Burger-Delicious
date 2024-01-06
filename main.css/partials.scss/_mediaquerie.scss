@@ -66,10 +66,32 @@
 
 @media screen and (max-width: 390px) {
 
-    .combo{
+    .container .burgers{
+        padding: 15px;
         display: flex;
-        flex-direction: column;
-        
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: auto;
+        gap: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .combo1{
+        grid-area: burger1;
+        width: 40%;
+    }
+    .combo2{
+        grid-area: burger2;
+        width: 40%;
+    }
+    .combo3{
+        grid-area: burger3;
+        width: 40%;
+    }
+    .combo4{
+        grid-area: burger4;
+        width: 40%;
     }
 
     .form__envios .form__envios--div{
@@ -125,8 +147,7 @@
         flex-direction: column;
     }
 
-    .navbar{
-       gap: .5rem;
+    header .navbar{
        justify-content: space-around;
 
     }
