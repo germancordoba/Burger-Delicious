@@ -318,3 +318,10 @@ p{
     border: 2px solid bisque;
     padding: 1rem;
 }
+
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
