@@ -264,28 +264,15 @@ h5{
 
 
 .price2{
-    background-color: $colorfondo;
-    max-width: max-content;
-    border-radius: 50%;
-    padding: .75rem;
-    outline: 2px dashed black;
+    @extend .price1;
 }
 
-
 .price3{
-    background-color: $colorfondo;
-    max-width: max-content;
-    border-radius: 50%;
-    padding: .75rem;
-    outline: 2px dashed black;
+    @extend .price1;
 }
 
 .price4{
-    background-color: $colorfondo;
-    max-width: max-content;
-    border-radius: 50%;
-    padding: .75rem;
-    outline: 2px dashed black;
+    @extend .price1;
 }
 
 

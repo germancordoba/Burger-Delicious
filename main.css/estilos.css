@@ -129,7 +129,6 @@ header .navbar {
   letter-spacing: 1px;
   animation: roll-in-left 0.6s ease-out both;
   animation-direction: alternate;
-  animation-delay: 1s;
 }
 @keyframes roll-in-left {
   0% {
@@ -389,34 +388,7 @@ h5 {
   font-family: "Bebas Neue", sans-serif;
 }
 
-.price1 {
-  background-color: orange;
-  max-width: -moz-max-content;
-  max-width: max-content;
-  border-radius: 50%;
-  padding: 0.75rem;
-  outline: 2px dashed black;
-}
-
-.price2 {
-  background-color: orange;
-  max-width: -moz-max-content;
-  max-width: max-content;
-  border-radius: 50%;
-  padding: 0.75rem;
-  outline: 2px dashed black;
-}
-
-.price3 {
-  background-color: orange;
-  max-width: -moz-max-content;
-  max-width: max-content;
-  border-radius: 50%;
-  padding: 0.75rem;
-  outline: 2px dashed black;
-}
-
-.price4 {
+.price1, .price4, .price3, .price2 {
   background-color: orange;
   max-width: -moz-max-content;
   max-width: max-content;
@@ -643,6 +615,11 @@ footer .icons {
   }
 }
 @media screen and (max-width: 680px) {
+  .burgers > div {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 772px) {
   .burgers > div {
     justify-content: center;
   }

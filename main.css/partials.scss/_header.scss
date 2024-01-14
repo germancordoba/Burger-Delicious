@@ -36,7 +36,13 @@ header{
         -webkit-animation:roll-in-left .6s ease-out both;
         animation:roll-in-left .6s ease-out both;
         animation-direction: alternate;
-        animation-delay: 1s;
+
+        // COMO USE EL FOR EN ESTE CASO//
+        // @for $var from 1 through 5 {
+        //     .menu--item#{$var} {
+        //         animation-delay: $var *0.2s;
+        //     }
+        // }
 
     }
 
@@ -52,3 +58,10 @@ header{
 a:hover{
     color: purple;
 }
+
+// COMO HACER UN EACH (PRACTICA)//
+// @each $item in blue,green,red{
+//     .menu__item#{$item}{
+//         background-color: $item;
+//     }
+// }
