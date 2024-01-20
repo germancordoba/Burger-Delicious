@@ -30,30 +30,26 @@ header{
     .navbar{
         display: flex;
         justify-content: center;
-        gap: .75rem;
+        gap: .65rem;
         font-family: $fontbebasneue;
-        letter-spacing: 1px;
+        letter-spacing: 0.8px;
+        font-size: larger;
         -webkit-animation:roll-in-left .6s ease-out both;
         animation:roll-in-left .6s ease-out both;
         animation-direction: alternate;
-
-        // COMO USE EL FOR EN ESTE CASO//
-        // @for $var from 1 through 5 {
-        //     .menu--item#{$var} {
-        //         animation-delay: $var *0.2s;
-        //     }
-        // }
-
     }
-
+    
     @-webkit-keyframes roll-in-left{0%{-webkit-transform:translateX(-800px) rotate(-540deg);transform:translateX(-800px) rotate(-540deg);opacity:0}100%{-webkit-transform:translateX(0) rotate(0deg);transform:translateX(0) rotate(0deg);opacity:1}}
     @keyframes roll-in-left{0%{-webkit-transform:translateX(-800px) rotate(-540deg);transform:translateX(-800px) rotate(-540deg);opacity:0}100%{-webkit-transform:translateX(0)  rotate(0deg);transform:translateX(0) rotate(0deg);opacity:1}}
+    
     
     a{
         text-decoration: none;
         color: black ;
     }
 }
+
+
 
 a:hover{
     color: purple;

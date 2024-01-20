@@ -124,9 +124,10 @@ header .title {
 header .navbar {
   display: flex;
   justify-content: center;
-  gap: 0.75rem;
+  gap: 0.65rem;
   font-family: "Bebas Neue", sans-serif;
-  letter-spacing: 1px;
+  letter-spacing: 0.8px;
+  font-size: larger;
   animation: roll-in-left 0.6s ease-out both;
   animation-direction: alternate;
 }
@@ -149,18 +150,18 @@ a:hover {
   color: purple;
 }
 
-.title__h2 {
+.title__h1 {
   padding-top: 1rem;
   display: flex;
   justify-content: center;
   font-family: "Bebas Neue", sans-serif;
   letter-spacing: 1px;
   transition: all 1s;
-  transform: scale(0.75);
+  transform: scale(0.65);
 }
 
-.title__h2:hover {
-  transform: scale(1.5);
+.title__h1:hover {
+  transform: scale(1.2);
 }
 
 .aggregates {
@@ -188,6 +189,51 @@ a:hover {
   justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
+}
+
+.primeraburguer, .septimaburguer, .sextaburguer, .quintaburguer, .cuartaburguer, .burguer3, .segundaburguer {
+  animation: slit-in-vertical 0.45s ease-out both;
+}
+@keyframes slit-in-vertical {
+  0% {
+    transform: translateZ(-800px) rotateY(90deg);
+    opacity: 0;
+  }
+  54% {
+    transform: translateZ(-160px) rotateY(87deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateZ(0) rotateY(0);
+  }
+}
+
+.hamburguesa1 {
+  animation-delay: 0.1s;
+}
+
+.hamburguesa2 {
+  animation-delay: 0.2s;
+}
+
+.hamburguesa3 {
+  animation-delay: 0.3s;
+}
+
+.hamburguesa4 {
+  animation-delay: 0.4s;
+}
+
+.hamburguesa5 {
+  animation-delay: 0.5s;
+}
+
+.hamburguesa6 {
+  animation-delay: 0.6s;
+}
+
+.hamburguesa7 {
+  animation-delay: 0.7s;
 }
 
 h4 {
@@ -380,7 +426,7 @@ h4 {
   border: 4px dashed orange;
 }
 
-.title__h2:hover {
+.title__h1:hover {
   color: grey;
 }
 
@@ -406,45 +452,17 @@ p {
   letter-spacing: 0.1rem;
 }
 
-.primeraburguer {
+.primeraburguer, .segundaburguer, .burguer3, .cuartaburguer, .quintaburguer, .sextaburguer, .septimaburguer {
   border: 2px solid bisque;
   padding: 1rem;
 }
 
-.segundaburguer {
-  border: 2px solid bisque;
-  padding: 1rem;
-}
-
-.burguer3 {
-  border: 2px solid bisque;
-  padding: 1rem;
-}
-
-.cuartaburguer {
-  border: 2px solid bisque;
-  padding: 1rem;
-}
-
-.quintaburguer {
-  border: 2px solid bisque;
-  padding: 1rem;
-}
 .quintaburguer .combo5 {
   width: 320px;
 }
 
-.sextaburguer {
-  border: 2px solid bisque;
-  padding: 1rem;
-}
 .sextaburguer .combo6 {
   width: 320px;
-}
-
-.septimaburguer {
-  border: 2px solid bisque;
-  padding: 1rem;
 }
 
 body {
@@ -459,6 +477,14 @@ body {
 
 .burgers > div:hover {
   transform: translatey(-50px);
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: white;
+}
+
+.accordion-button:not(.collapsed):focus {
+  background-image: radial-gradient(red, orange);
 }
 
 footer {
