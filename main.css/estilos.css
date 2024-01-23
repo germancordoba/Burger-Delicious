@@ -121,6 +121,9 @@ header .title {
   color: maroon;
   font-family: "Bebas Neue", sans-serif;
 }
+header .link1 {
+  color: maroon;
+}
 header .navbar {
   display: flex;
   justify-content: center;
